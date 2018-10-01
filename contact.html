@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="shortcut icon" href="pictures/logo_1.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="UTF-8">
-	<title>Document</title>
+        <meta content=
+        "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+        <link href=
+        "https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel=
+        "stylesheet">
+        <link crossorigin="anonymous" href=
+        "https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity=
+        "sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        rel="stylesheet">
+        <link href=
+        "https://fonts.googleapis.com/css?family=Noto+Serif:700|Open+Sans:300i,400,700,700i"
+        rel="stylesheet">
+        <link href="screen.css" rel="stylesheet" type="text/css">
+	<title>Aruba Coffee</title>
 </head>
 <body>
+	<header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
+  
+  <!-- Logo text or image -->
+  <div class="flex items-center justify-between mb-4 md:mb-0">
+    <h1 class="leading-none text-2xl text-white">
+      <a class="no-underline text-white hover:text-white" href="index.html">
+        Aruba Coffee
+      </a>
+    </h1>
+
+    <a class="text-white hover:text-orange md:hidden" href="#">
+      <i class="fa fa-2x fa-bars"></i>
+    </a>
+  </div>
+  <!-- END Logo text or image -->
+  
+  <!-- Search field -->
+  <form class="mb-4 w-full md:mb-0 md:w-1/4">
+    <label class="hidden" for="search-form">Search</label>
+    <input class="bg-grey-lightest border-2 focus:border-orange p-2 rounded-lg shadow-inner w-full" placeholder="Search" type="text">
+    <button class="hidden">Submit</button>
+  </form>
+  <!-- END Search field -->
+  
+  <!-- Global navigation -->
+  <nav>
+    <ul class="list-reset md:flex md:items-center">
+      <li class="md:ml-4">
+        <a class="block no-underline hover:underline py-2 text-white hover:text-white md:border-none md:p-0" href="production.html">
+          Production
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-white hover:text-white md:border-none md:p-0" href="about.html">
+        	Our Story
+        </a>
+      </li>
+      <li class="md:ml-4">
+        <a class="border-t block no-underline hover:underline py-2 text-white hover:text-white md:border-none md:p-0" href="contact.html">
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- END Global navigation -->
+
+</header>
 	<div class="container my-12 mx-auto px-4 md:px-12">
     <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
@@ -16,26 +78,160 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+                    <img alt="Placeholder" class="block h-auto w-full" src="pictures/ryan-holloway-351140-unsplash.jpg">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                            Article Title
+                        <a class="no-underline hover:underline text-white" href="#">
+                            Anthony Ojeda
                         </a>
                     </h1>
                     <p class="text-grey-darker text-sm">
-                        11/1/19
+                        CEO
                     </p>
                 </header>
 
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
+              
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="pictures/milan-popovic-496766-unsplash.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-white" href="#">
+                            Alejandro Solis 
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        COO
+                    </p>
+                </header>
+
+         
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+             
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="pictures/eric-froehling-311481-unsplash.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-white" href="#">
+                            Veronica Bricias 
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        CFO
+                    </p>
+                </header>
+
+                
+                    </a>
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+             
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="pictures/miguel-runa-715905-unsplash.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-white" href="#">
+                            Amayrani Carrascoza
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        CTO
+                    </p>
+                </header>
+
+                
+                    
+                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
+                        <span class="hidden">Like</span>
+                        <i class="fa fa-heart"></i>
+                    </a>
+                </footer>
+
+            </article>
+            <!-- END Article -->
+
+        </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+
+            <!-- Article -->
+            <article class="overflow-hidden rounded-lg shadow-lg">
+
+                <a href="#">
+                    <img alt="Placeholder" class="block h-auto w-full" src="pictures/philipe-cavalcante-733389-unsplash.jpg">
+                </a>
+
+                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+                    <h1 class="text-lg">
+                        <a class="no-underline hover:underline text-white" href="#">
+                            Franchesca Monico 
+                        </a>
+                    </h1>
+                    <p class="text-grey-darker text-sm">
+                        CHRO
+                    </p>
+                </header>
+
+                
                     </a>
                     <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
                         <span class="hidden">Like</span>
@@ -56,186 +252,22 @@
             <article class="overflow-hidden rounded-lg shadow-lg">
 
                 <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
+                    <img alt="Placeholder" class="block h-auto w-full" src="pictures/finn-hackshaw-766955-unsplash.jpg">
                 </a>
 
                 <header class="flex items-center justify-between leading-tight p-2 md:p-4">
                     <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                            Article Title
+                        <a class="no-underline hover:underline text-white" href="#">
+                           Diana Ruiz
                         </a>
                     </h1>
                     <p class="text-grey-darker text-sm">
-                        11/1/19
+                        CMO
                     </p>
                 </header>
 
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
-                    </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
-                    </a>
-                </footer>
-
-            </article>
-            <!-- END Article -->
-
-        </div>
-        <!-- END Column -->
-
-        <!-- Column -->
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-
-                <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
-                </a>
-
-                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                    <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                            Article Title
-                        </a>
-                    </h1>
-                    <p class="text-grey-darker text-sm">
-                        11/1/19
-                    </p>
-                </header>
-
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
-                    </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
-                    </a>
-                </footer>
-
-            </article>
-            <!-- END Article -->
-
-        </div>
-        <!-- END Column -->
-
-        <!-- Column -->
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-
-                <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
-                </a>
-
-                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                    <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                            Article Title
-                        </a>
-                    </h1>
-                    <p class="text-grey-darker text-sm">
-                        11/1/19
-                    </p>
-                </header>
-
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
-                    </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
-                    </a>
-                </footer>
-
-            </article>
-            <!-- END Article -->
-
-        </div>
-        <!-- END Column -->
-
-        <!-- Column -->
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-
-                <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
-                </a>
-
-                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                    <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                            Article Title
-                        </a>
-                    </h1>
-                    <p class="text-grey-darker text-sm">
-                        11/1/19
-                    </p>
-                </header>
-
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
-                    </a>
-                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                        <span class="hidden">Like</span>
-                        <i class="fa fa-heart"></i>
-                    </a>
-                </footer>
-
-            </article>
-            <!-- END Article -->
-
-        </div>
-        <!-- END Column -->
-
-        <!-- Column -->
-        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-lg">
-
-                <a href="#">
-                    <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random">
-                </a>
-
-                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                    <h1 class="text-lg">
-                        <a class="no-underline hover:underline text-black" href="#">
-                            Article Title
-                        </a>
-                    </h1>
-                    <p class="text-grey-darker text-sm">
-                        11/1/19
-                    </p>
-                </header>
-
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                        <p class="ml-2 text-sm">
-                            Author Name
-                        </p>
+               
+                        
                     </a>
                     <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
                         <span class="hidden">Like</span>
