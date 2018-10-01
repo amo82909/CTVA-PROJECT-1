@@ -207,9 +207,11 @@ font-weight: 1000;
   background: url(pictures/sacks.jpg) center center no-repeat;
   background-attachment: fixed;
   background-size:cover; 
+}
 
-
-
+.bg-about{
+  background:#040726;
+}
 
 
 
